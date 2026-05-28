@@ -13,7 +13,6 @@ Apps that use this package may be rejected during App Store review. Treat it as 
 ## Requirements
 
 - iOS 15+
-- Swift 6.3+
 - Swift Package Manager
 
 ## Installation
