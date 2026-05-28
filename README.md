@@ -2,6 +2,8 @@
 
 EdgeDistortion is an iOS Swift package for rendering SwiftUI or UIKit content through a portal-backed edge distortion effect. It uses a source surface, portal views, and a UIKit wrapper to mirror content into curved top and bottom edge slices.
 
+https://github.com/user-attachments/assets/c0bb3a90-28c7-42e7-b2a9-91311c1c66d4
+
 ## Warning
 
 This package uses private UIKit API. Internally it looks up `_UIPortalView` and configures private key-value properties such as `sourceView`, `hidesSourceView`, `matchesPosition`, and `matchesTransform`.
