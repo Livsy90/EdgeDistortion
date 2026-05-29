@@ -3,11 +3,11 @@ import SwiftUI
 struct SwiftUIEdgeDistortionImageScrollView: View {
 
     private let imageNames = [
+        "roller90s",
         "image90",
         "biker90s",
         "skate90s",
-        "pontiac90s",
-        "roller90s"
+        "pontiac90s"
     ]
     private let repeatCount = 24
     @State private var currentIndex = 0

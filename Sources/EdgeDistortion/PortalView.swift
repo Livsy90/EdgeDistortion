@@ -6,7 +6,7 @@ public final class PortalView {
     public let renderedView: UIView
     private weak var attachedSurface: UIView?
 
-    public init?(tracksOriginalFrame: Bool) {
+    public init(tracksOriginalFrame: Bool) {
         let duplicate = UIView.makeSystemReplicaView()
         PortalView.configure(
             duplicate,

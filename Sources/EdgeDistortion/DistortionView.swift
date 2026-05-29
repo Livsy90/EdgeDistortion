@@ -8,9 +8,8 @@ final class DistortionView: UIView {
         didSet { layer.borderWidth = showsBorder ? 0.5 : 0 }
     }
 
-    init?(sourceView: PortalViewSourceSurface, anchorPoint: CGPoint = CGPoint(x: 0.5, y: 0)) {
-        guard let replica = PortalView(tracksOriginalFrame: false) else { return nil }
-        self.replica = replica
+    init(sourceView: PortalViewSourceSurface, anchorPoint: CGPoint = CGPoint(x: 0.5, y: 0)) {
+        self.replica = PortalView(tracksOriginalFrame: false)
         super.init(frame: .zero)
         clipsToBounds = true
         layer.borderColor = UIColor.yellow.cgColor

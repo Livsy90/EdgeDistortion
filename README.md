@@ -131,7 +131,3 @@ Useful methods:
 - `attach(to:hidesOriginal:)`: attaches the portal to a source surface.
 - `refresh(hidesOriginal:)`: reapplies the current source connection.
 - `detach()`: clears the portal source.
-
-## Notes
-
-`PortalView.init(tracksOriginalFrame:)` is failable because the implementation depends on private UIKit behavior. Always handle the `nil` case if you use `PortalView` directly.
